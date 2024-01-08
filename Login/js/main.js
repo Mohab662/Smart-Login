@@ -9,7 +9,7 @@ else{
 
 var signupSpan=document.querySelector('#signupSpan');
 signupSpan.addEventListener('click',function (evetinfo) {
-    location.href="../index.html";
+    location.href="./index.html";
 })
 
 var loginEmail=document.querySelector('#loginEmail');
@@ -24,7 +24,7 @@ function checkLoginData() {
            var userName= loginDetails[i].Name;   
 
            localStorage.setItem("UserName",userName);
-           location.href="../Home/index.html"
+           location.href="./Home/index.html"
         }     
     } 
 }
