@@ -3,7 +3,7 @@ sayHello.innerHTML='Hello '+localStorage.getItem('UserName');
 
 var logOut=document.querySelector('#logOut');
 logOut.addEventListener('click',function (evetinfo) {
-    location.href="./Login/index.html";
+    location.href="../index.html";
     localStorage.removeItem('UserName');
     
 })
