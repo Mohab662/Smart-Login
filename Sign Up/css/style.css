@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(25, 42, 86,1.0);
+    font-family: 'Titillium Web', sans-serif;
+}
+#signupSpan{
+    cursor: pointer;
+
+}
+#signupSpan:hover{
+
+    border-bottom: 1px solid white;
+}
+
+
+#signUp{
+    background-color: rgba(25, 42, 86,1.0);
+     box-shadow: 0 0 2rem rgba(0, 0, 0,0.5);
+    
+}
+.signUp-title{
+    color: rgba(0, 151, 230,1.0);
+}
+#signinSpan{
+    cursor: pointer;
+
+}
+#signinSpan:hover{
+
+    border-bottom: 1px solid white;
+}
+
+
+.inputbg:enabled{
+    background-color: transparent;
+    color: aliceblue;
+}
+.inputbg::placeholder{
+    color: gray;
+}
